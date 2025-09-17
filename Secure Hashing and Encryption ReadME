@@ -1,0 +1,15 @@
+Secure Hashing and Secure Encryption
+These two Python Scripts demonstrate the following:
+Write an app that generates SHA-256 hashes for input strings or files
+Write an app that uses a simple substitution cipher (Caesar cipher or similar) to encrypt/decrypt input text
+Use OpenSSL or a tool to simulate a digital signature (sign/verify).
+
+Secure Hashing.py
+This script utilizes the Cryptography package in order to generate SHA-256 hashing to encode and decode messages. 
+The script also utilizes generated public and private keys to sign and verify user input messages. 
+Please have "private_key.pem" and "public_key.pem" in the same directory when running "Secure Encryption.py"
+
+Secure Encryption.py
+This script utilizes the Caesar Cypher in order to encrypt user input messages. 
+The first function is the Caesar Cypher in a mathemeatical form that pareses through the input message to shift each letter by the given shift amount. 
+The sceond function reverses the cypher by using a similar equation. 

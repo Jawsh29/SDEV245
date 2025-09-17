@@ -1,3 +1,0 @@
-Enter "pip install cryptography" into command line before running python files.
-The Symmetrical Program utilizes symmetrical encryption through the Fernet Cypher in order to encrypt and decrypt a message. The Asymmetrical program utilizes asymmetrical encryption to code and decode massages through the secure hash algorithm. 
-A public and private key were generated to be used in this program (private_key.pem and public _key.pem)
